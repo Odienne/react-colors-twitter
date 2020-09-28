@@ -1,0 +1,15 @@
+.count {
+    display: flex;
+    height: 92vh;
+    flex-direction: column;
+    margin-top: 10vh;
+}
+
+h1 {
+    text-align: center;
+}
+
+.counters {
+    display: flex;
+    justify-content: space-around;
+}

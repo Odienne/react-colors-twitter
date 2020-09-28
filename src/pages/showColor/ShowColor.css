@@ -1,0 +1,8 @@
+.colorPage {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+    flex-direction: column;
+    align-items: center;
+    height: 70vh;
+}

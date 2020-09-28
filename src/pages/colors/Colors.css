@@ -1,0 +1,128 @@
+.page {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 6vh;
+    height: 86vh;
+    overflow: hidden;
+}
+
+.leftSide {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 95%;
+    overflow: hidden;
+    padding-top: 10px;
+}
+
+.rightSide {
+    width: 60%;
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+    padding: 0 25px 50px 25px;
+    height: 95%;
+    overflow: hidden;
+}
+
+.colorPicker {
+    margin-bottom: 30px;
+}
+
+.inputAddColor {
+    margin-left: 150px;
+    padding: 6px 10px;
+    border: 0;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.mainColors {
+    margin-top: 50px;
+    padding: 20px 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px 0 #ccc;
+    width: 80%;
+}
+
+.colorItem {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px 0 #ccc;
+    padding: 15px 20px;
+    margin-bottom: 35px;
+    position: relative;
+}
+
+h4 {
+    margin-bottom: 8px;
+}
+
+.colorView {
+    display: flex;
+    justify-content: space-between;
+}
+
+.colorInfos {
+    margin-top: 12px;
+
+}
+
+.colorInfos p {
+    width: 100%;
+    text-align: left;
+}
+
+.searchBox {
+    padding: 12px;
+    background: #ddd;
+    box-shadow: 0 2px 5px 0 #aaa;
+    z-index: 2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #555;
+
+}
+
+.searchBox input {
+    padding: 10px 20px;
+    border: 0;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.searchBox p {
+    font-size: 0.8em;
+}
+
+.colorList {
+    border: 1px solid #ddd;
+    padding: 16px 25px;
+    overflow-y: scroll;
+}
+
+.colorList a {
+    text-decoration: none;
+}
+
+.roundButton {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    width: 25px;
+    height: 25px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    background: #ddd;
+    color: #000;
+    position: absolute;
+    right: -12.5px;
+    font-size: 0.8em;
+    cursor: pointer;
+}
